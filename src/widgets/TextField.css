@@ -1,0 +1,74 @@
+.SecurityCodeField {
+    margin: 2%;
+    border-radius: 10% / 50%;
+    border-width: 0.3em;
+    border-color: #4d9fe1;
+    background-color: #8f8f8f;
+    text-align: center;
+}
+
+.SecurityCodeField:active {
+    border-color: #4d9fe1;
+    background-color: #8f8f8f;
+}
+
+.SecurityCodeField:focus {
+    border-color: #4d9fe1;
+    background-color: #8f8f8f;
+}
+
+.SecurityCodeFieldInvalid {
+    margin: 2%;
+    border-radius: 10% / 50%;
+    border-width: 0.3em;
+    border-color: #af2222;
+    background-color: #8f8f8f;
+    text-align: center;
+}
+
+.SecurityCodeField:active {
+    border-color: #4d9fe1;
+    background-color: #8f8f8f;
+}
+
+.SecurityCodeField:focus {
+    border-color: #4d9fe1;
+    background-color: #8f8f8f;
+}
+
+.ConnectButton {
+    background-color: #4d9fe1;
+    border-radius: 10% / 50%;
+    border-color: white;
+}
+
+.ConnectionTextInvalid {
+    color: #af2222;
+    text-align: center;
+}
+
+.ConnectionText {
+    color: white;
+    text-align: center;
+}
+
+@media screen and (hover: none) {
+    .SecurityCodeField {
+        margin-top: 30vh;
+        border-radius: 25% / 75%;
+        font-size: 3em;
+        width: 5em;
+    }
+
+    .SecurityCodeFieldInvalid {
+        margin-top: 30vh;
+        border-radius: 25% / 75%;
+        font-size: 3em;
+        width: 5em;
+    }
+
+    .ConnectButton {
+        font-size: 1.5em;
+        width: 8em;
+    }
+}

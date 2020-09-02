@@ -1,0 +1,24 @@
+.ConnectionPage {
+  text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+@media screen and (hover: hover) {
+  .ConnectionPage {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+@media screen and (hover: none) {
+  .ConnectionPage {
+    height: 100vh;
+    margin: 0;
+  }
+}
